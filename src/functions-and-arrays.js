@@ -75,13 +75,16 @@ const wordsArr = [
   "fuel",
   "palace",
 ];
+let sumLength=0
+let averageLength=0
 function averageWordLength(wordsArr){
   if (wordsArr.length==0){
     return null;
   }
   for (let i=0; i<wordsArr.length; i++){
-   sum
-  }
+   sumLength=sumLength + wordsArr[i].length
+   averageLength=sumLength/wordsArr.length
+  }return averageLength
 
 }
 // Iteration #5: Unique arrays
@@ -98,6 +101,21 @@ const wordsUnique = [
   "simple",
   "bring",
 ];
+
+let singleWord=""
+function uniquifyArray(wordsArr){
+  if (wordsArr.length==0){
+    return null;
+  }
+ for (let i=0; i<wordsArr.length; i++){
+    singleWord=wordsArr[i].push
+if (singleWord==wordsArr[i]){
+  wordsArr[i].indexOf
+}
+ }
+}
+
+
 
 // Iteration #6: Find elements
 const wordsFind = [
